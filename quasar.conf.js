@@ -62,18 +62,33 @@ module.exports = function (ctx) {
         'QField',
         'QDate',
         'QPopupProxy',
-        'QAvatar'
+        'QAvatar',
+        'QTabs', 
+        'QTab',
+        'QTabPanels',
+        'QSplitter',
+        'QTabPanel',
+        'QInnerLoading',
+        'QSpinner',
+        'QSpinnerHourglass',
+        'QSpinnerIos',
+        'QTable',
+        'QForm',
+        'QTd',
+        'QTooltip'
       ],
 
       directives: [
         'ClosePopup',
-        'Ripple'
+        'Ripple',
       ],
 
       // Quasar plugins
       plugins: [
         'Notify',
         'LocalStorage',
+        'Loading',
+        'Dialog'
       ]
 
       // iconSet: 'ionicons-v4'
